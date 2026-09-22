@@ -1,0 +1,44 @@
+ceilings:
+  "": named
+  by: named
+  "attributed to": attributed
+  "ascribed to": attributed
+  possibly: attributed
+  "possibly by": attributed
+  probably: attributed
+  "probably by": attributed
+  "circle of": qualified
+  "workshop of": qualified
+  "studio of": qualified
+  "atelier of": qualified
+  "follower of": qualified
+  "school of": qualified
+  "style of": qualified
+  "manner of": qualified
+  after: qualified
+  "imitator of": qualified
+  "pupil of": qualified
+unknown_phrases:
+  - unknown
+  - unidentified
+  - anonymous
+  - not known
+culture_tokens:
+  - american
+  - chinese
+  - french
+  - english
+  - german
+  - italian
+  - japanese
+  - korean
+  - indian
+  - egyptian
+  - greek
+  - roman
+  - spanish
+  - dutch
+  - flemish
+  - russian
+  - mexican
+  - african

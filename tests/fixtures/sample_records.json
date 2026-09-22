@@ -1,0 +1,20 @@
+[
+  {
+    "id": 100,
+    "accession_number": "FIX.100",
+    "title": "Fixture Work",
+    "url": "https://www.clevelandart.org/art/100",
+    "department": "Prints",
+    "type": "Print",
+    "record_type": "object",
+    "share_license_status": "CC0",
+    "updated_at": "2026-01-01T00:00:00Z",
+    "creation_date": "1890",
+    "creation_date_earliest": 1890,
+    "creation_date_latest": 1890,
+    "technique": "lithograph",
+    "creators": [{"description": "Test Artist Name", "qualifier": ""}],
+    "description": "A sufficiently long description with more than eight words for the stub threshold.",
+    "images": {}
+  }
+]

@@ -1,0 +1,36 @@
+generic:
+  - painting
+  - sculpture
+  - mixed media
+  - ceramic
+  - photograph
+  - drawing
+  - print
+material_only:
+  - bronze
+  - marble
+  - silk
+  - ink
+  - wood
+  - canvas
+  - paper
+  - glass
+  - iron
+  - steel
+  - copper
+  - gold
+  - silver
+specific:
+  - oil on canvas
+  - watercolor on paper
+  - ink and color on silk
+  - gelatin silver print
+  - lithograph
+  - woodcut
+  - engraving
+  - etching
+  - cloisonné
+  - bronze with traces of gilding and silver, and garnets
+aliases:
+  oils on canvas: oil on canvas
+  oil painting on canvas: oil on canvas
