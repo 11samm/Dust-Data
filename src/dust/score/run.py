@@ -214,7 +214,9 @@ def load_cohort(
         typ = cohort.get("type")
         banner = _format_banner(mode, size, fetched, dept, typ)
         if payload.get("source") == "getty":
-            banner = f"Getty exploratory sample: {len(records_raw)} records, fetched {fetched[:10] or 'unknown date'}; not collection-representative"
+            selection = payload.get("sampling") or {}
+            method = "random exploratory" if selection.get("method") == "random_ordered_window" else "exploratory"
+            banner = f"Getty {method} sample: {len(records_raw)} records, fetched {fetched[:10] or 'unknown date'}; not collection-representative"
         meta = CohortMeta(
             mode=mode,
             size=size,

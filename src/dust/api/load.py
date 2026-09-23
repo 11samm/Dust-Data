@@ -7,7 +7,7 @@ from dust.api.cache import cache_path_for_key, cohort_key, read_cache, write_cac
 from dust.config import API_BASE, CACHE_DIR, COHORT_SIZE
 from dust.score.run import load_cohort, policy_fingerprint
 from dust.sources.cleveland import ClevelandSource
-from dust.sources.getty.client import GettySource
+from dust.sources.getty.client import GettySource, SPARQL_URL
 
 
 def ensure_cohort(
@@ -27,10 +27,21 @@ def ensure_cohort(
     if not force_refresh and cache_is_fresh(path):
         return path
 
+    sampling = None
     if source == "cleveland":
         records = ClevelandSource().fetch_cohort(size=size, mode=mode, department=department, type_=type_)
     elif source == "getty":
-        records = GettySource().fetch_cohort(size=size, mode=mode, department=department, type_=type_)
+        previous_ids: set[str] = set()
+        if force_refresh and path.exists():
+            previous = read_cache(path)
+            previous_ids = {
+                record["source_uri"]
+                for record in previous.get("records", [])
+                if isinstance(record, dict) and record.get("source_uri")
+            }
+        getty = GettySource()
+        records = getty.fetch_cohort(size=size, mode=mode, department=department, type_=type_, exclude_ids=previous_ids)
+        sampling = getty.sample_metadata
     else:
         raise ValueError(f"unknown source: {source}")
     if not records:
@@ -45,10 +56,11 @@ def ensure_cohort(
         },
         "cohort_key": key,
         "policy_hash": policy_fingerprint(),
-        "api": API_BASE,
+        "api": SPARQL_URL if source == "getty" else API_BASE,
         "source": source,
-        "schema_version": 5 if source == "getty" else 1,
+        "schema_version": 6 if source == "getty" else 1,
         "record_format": "adapted_common" if source == "getty" else "cleveland_api",
+        "sampling": sampling,
         "records": records,
     }
     write_cache(path, payload)

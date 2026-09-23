@@ -1,9 +1,10 @@
 import json
+import random
 from pathlib import Path
 
 import httpx
 
-from dust.api.cache import write_cache
+from dust.api.cache import read_cache, write_cache
 from dust.model import parse_artwork_raw
 from dust.normalize.medium import normalize_medium
 from dust.score.run import load_cohort, score_artworks
@@ -157,17 +158,56 @@ def test_getty_medium_resolution_order():
     assert unresolved["aat_evidence"][-1]["match_source"] == "unresolved"
 
 
-def test_getty_discovery_accepts_larger_sample_size():
-    seen = []
+def test_getty_discovery_randomizes_and_excludes_previous_cohort():
+    queries = []
 
     def respond(request):
-        seen.append(str(request.url))
-        return httpx.Response(200, json={"results": {"bindings": [{"object": {"value": "https://data.getty.edu/museum/collection/object/example"}}]}})
+        query = request.url.params["query"]
+        queries.append(query)
+        if "COUNT(DISTINCT" in query:
+            return httpx.Response(200, json={"results": {"bindings": [{"total": {"value": "1000"}}]}})
+        bindings = [
+            {"object": {"value": f"https://data.getty.edu/museum/collection/object/{index:04d}"}}
+            for index in range(300)
+        ]
+        return httpx.Response(200, json={"results": {"bindings": bindings}})
 
     client = httpx.Client(transport=httpx.MockTransport(respond))
-    source = GettySource(client=client)
-    assert len(source.sample_ids(100)) == 2
-    assert "LIMIT+100" in seen[0]
+    source = GettySource(client=client, rng=random.Random(7))
+    first = source.sample_ids(100)
+    second = source.sample_ids(100, exclude_ids=set(first))
+    assert len(first) == len(second) == 100
+    assert set(first).isdisjoint(second)
+    assert source.sample_metadata["excluded_previous_ids"] == 100
+    assert len([query for query in queries if "OFFSET" in query]) == 2
+    assert all("LIMIT 300" in query for query in queries if "OFFSET" in query)
+
+
+def test_getty_force_refresh_replaces_cohort_with_new_ids(tmp_path, monkeypatch):
+    import dust.api.load as loading
+
+    candidates = [adapt_record(item) for item in _records()[:10]]
+    exclusions = []
+
+    class FakeGettySource:
+        def __init__(self):
+            self.sample_metadata = {"method": "random_ordered_window"}
+
+        def fetch_cohort(self, *, size, mode, department, type_, exclude_ids):
+            exclusions.append(set(exclude_ids))
+            return [item for item in candidates if item["source_uri"] not in exclude_ids][:size]
+
+    monkeypatch.setattr(loading, "CACHE_DIR", tmp_path)
+    monkeypatch.setattr(loading, "GettySource", FakeGettySource)
+    path = loading.ensure_cohort(source="getty", size=5, force_refresh=True)
+    first = {item["source_uri"] for item in read_cache(path)["records"]}
+    loading.ensure_cohort(source="getty", size=5, force_refresh=True)
+    second_payload = read_cache(path)
+    second = {item["source_uri"] for item in second_payload["records"]}
+    assert len(first) == len(second) == 5
+    assert first.isdisjoint(second)
+    assert exclusions == [set(), first]
+    assert second_payload["sampling"]["method"] == "random_ordered_window"
 
 
 def test_getty_evidence_renders_compact_image():

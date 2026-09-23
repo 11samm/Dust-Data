@@ -26,7 +26,7 @@ def cohort_key(
     if source != "cleveland":
         payload["source"] = source
         payload["fields"] = []
-        payload["schema_version"] = 5
+        payload["schema_version"] = 6
     canonical = json.dumps(payload, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
 

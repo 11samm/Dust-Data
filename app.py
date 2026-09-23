@@ -122,10 +122,10 @@ def main() -> None:
                 "Getty sample size",
                 [5, 25, 50, 100],
                 index=1,
-                help="Getty objects are selected in stable URI order. Larger samples take longer to fetch and are not representative of the whole collection.",
+                help="Each refresh selects a new set of Getty objects. Larger samples take longer to fetch; results are exploratory, not representative of the whole collection.",
                 key="getty_sample_size",
             )
-            st.caption("Irises plus objects in stable SPARQL order; exploratory, not random.")
+            st.caption("Refresh sample to review a new set of Getty objects. Samples are exploratory.")
         else:
             sample_size = st.segmented_control(
                 "Sample size",
@@ -183,7 +183,12 @@ def main() -> None:
                     force_refresh=True,
                 )
             st.cache_data.clear()
-            st.toast("Getty sample refreshed" if source == "getty" else "New randomized sample loaded", icon=":material/check_circle:")
+            st.session_state.selected_record_key = None
+            st.session_state.queue_list_key = None
+            st.session_state.queue_page = 0
+            if "queue_pager" in st.session_state:
+                st.session_state.queue_pager = 1
+            st.toast("New Getty sample loaded" if source == "getty" else "New randomized sample loaded", icon=":material/check_circle:")
         except Exception as exc:
             refresh_error = exc
 

@@ -23,7 +23,7 @@ The app lets you:
 - Export the filtered review queue as a CSV file
 - Choose a Cleveland sample of 250, 500, or 1,000 records, or a Getty exploratory sample of 5, 25, 50, or 100 objects
 
-The default Cleveland sample size is **500 records**. Getty defaults to **25** deterministically selected objects; its sample is not a collection-wide audit.
+The default Cleveland sample size is **500 records**. Getty defaults to **25** objects selected from a randomly chosen SPARQL window. **Refresh sample** selects a new Getty cohort and excludes objects in the previous cached cohort; this is still an exploratory sample, not a collection-wide audit.
 
 ## 📥 Download the project
 
@@ -88,7 +88,7 @@ The first load may take a little longer because the app downloads data from the 
 
 ### Getty evidence
 
-Getty objects are discovered through SPARQL and fetched as Linked.Art JSON-LD. The sample includes a documented *Irises* record with embedded AAT material IDs, followed by objects in stable URI order. Medium resolution checks relevant Getty embedded AAT IDs, then the local vocabulary, then the persistent AAT cache and live Getty reconciliation service; unmatched terms remain unresolved. The evidence dialog shows that provenance, a compact IIIF image when available, and separate image and metadata rights. Remote AAT candidates need human review and do not automatically improve a score. When image availability cannot be established, that dimension is marked **unassessed** and excluded from the composite denominator. Getty samples should not be used to rank institutions.
+Getty objects are discovered through a random bounded window of SPARQL object IDs and fetched as Linked.Art JSON-LD. The previous cohort is excluded when refreshing, so the review queue shows new records. The documented *Irises* object remains in the test fixtures as an embedded-AAT example but is no longer pinned to every live sample. Medium resolution checks relevant Getty embedded AAT IDs, then the local vocabulary, then the persistent AAT cache and live Getty reconciliation service; unmatched terms remain unresolved. The evidence dialog shows that provenance, a compact IIIF image when available, and separate image and metadata rights. Remote AAT candidates need human review and do not automatically improve a score. When image availability cannot be established, that dimension is marked **unassessed** and excluded from the composite denominator. Getty samples should not be used to rank institutions.
 
 ## 🧮 Understanding the score
 
@@ -137,4 +137,4 @@ If a previous sample exists, Dust & Data will show the cached version. Try **Ref
 
 ## 📚 More detail
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for the complete scoring policy, data model, API behavior, and project structure.
+The scoring rules live in `src/dust/score/`, source adapters in `src/dust/sources/`, and regression examples in `tests/`.
