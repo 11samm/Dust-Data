@@ -88,6 +88,7 @@ def main() -> None:
         source = st.selectbox(
             "Museum",
             ["cleveland", "getty"],
+            index=1,
             format_func=lambda value: "Cleveland Museum of Art" if value == "cleveland" else "J. Paul Getty Museum",
             key="museum_source",
             on_change=clear_source_state,
