@@ -4,3 +4,11 @@ __pycache__/
 .pytest_cache/
 *.pyc
 .streamlit/secrets.toml
+
+# Keep internal planning and architecture notes out of the published repository.
+/ARCHITECTURE.md
+*plan*.md
+*Plan*.md
+*PLAN*.md
+/docs/internal/
+/internal/

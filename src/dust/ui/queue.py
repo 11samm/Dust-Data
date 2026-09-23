@@ -134,10 +134,8 @@ def render_queue(frame: pd.DataFrame, records: Mapping[str, ScoredRecord]) -> No
             record_key = str(row.record_key)
             is_selected = record_key == selected
             with st.container(
-                horizontal=True,
                 gap="small",
                 border=True,
-                vertical_alignment="center",
                 key=_row_key(record_key),
             ):
                 st.html(_row_html(row, rank, is_selected), width="stretch")
