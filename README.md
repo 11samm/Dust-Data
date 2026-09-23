@@ -2,6 +2,8 @@
 
 **Dust & Data** helps museum staff find public artwork records that may need metadata review. It gives each sampled record a completeness score, puts records with the most gaps first, and shows the source information behind every score.
 
+**Try the live app:** [dust-data.streamlit.app](https://dust-data.streamlit.app/). You can also run it locally using the instructions below.
+
 **The Getty integration is the focus of this project.** I first built the review workflow with the [Cleveland Museum of Art's Open Access API](https://openaccess-api.clevelandart.org/), whose straightforward artwork fields made it a useful starting point. I then adapted the same workflow to the [J. Paul Getty Museum Collection API](https://data.getty.edu/museum/collection/docs/). Getty's nested Linked.Art data, vocabulary references, and IIIF images made this the main test of whether one review tool could handle very different museum data.
 
 Read the [product requirements document (PDF)](./Dust%20%26%20Data%20PRD.pdf) for the problem, product decisions, tradeoffs, and proposed validation.
