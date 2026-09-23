@@ -1,0 +1,1919 @@
+{
+  "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4",
+  "type": "HumanMadeObject",
+  "_label": "Missal of Bishop Antonio Scarampi (Ms. Ludwig V 7 (83.MG.82))",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300133025",
+      "type": "Type",
+      "_label": "Artwork"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300265483",
+      "type": "Type",
+      "_label": "Manuscripts",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435444",
+          "type": "Type",
+          "_label": "Classification (Category)"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300028051",
+      "type": "Type",
+      "_label": "Books"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300026472",
+      "type": "Type",
+      "_label": "Missals"
+    },
+    {
+      "id": "https://data.getty.edu/local/thesaurus/object-record-structure-whole",
+      "type": "Type",
+      "_label": "Object Record Structure: Whole",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-record-structure-type",
+          "type": "Type",
+          "_label": "Object Record Structure Type"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/identifier/d9a308bf-3a3f-5972-bdce-547e03aa54d5",
+      "type": "Identifier",
+      "_label": "Accession Number",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Identification Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        }
+      ],
+      "content": "83.MG.82"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/name/e03c6c4a-f85a-5017-8273-2eaf7a710350",
+      "type": "Name",
+      "_label": "Alternate Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417227",
+          "type": "Type",
+          "_label": "Alternate Title"
+        },
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/titles/primary",
+          "type": "Type",
+          "_label": "Primary Title",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on the `https://data.getty.edu/local/thesaurus/object-title-*` terms instead.",
+            "since": "2020-11-11"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-title-primary",
+          "type": "Type",
+          "_label": "Primary Title"
+        }
+      ],
+      "content": "Missal of Bishop Antonio Scarampi",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English (language)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/identifier/3beb1fe8-22a6-5206-8e29-1fd22dca15e7",
+      "type": "Identifier",
+      "_label": "Display Number",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Identification Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "Ms. Ludwig V 7 (83.MG.82)"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/identifier/dor-id",
+      "type": "Identifier",
+      "_label": "Getty DOR ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR ID` (https://data.getty.edu/local/thesaurus/dor-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID"
+        }
+      ],
+      "content": "1369"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/identifier/slug-id",
+      "type": "Identifier",
+      "_label": "Slug Identifier",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/slug-identifier",
+          "type": "Type",
+          "_label": "Slug Identifier"
+        }
+      ],
+      "content": "urn:getty-local:idm:object:slug/105SW8"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/identifier/4f796969-6047-5ea1-b56c-c32f1341702d",
+      "type": "Identifier",
+      "_label": "Manuscript Number",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Identification Number"
+        },
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/number/manuscript",
+          "type": "Type",
+          "_label": "Getty Manuscript Number",
+          "deprecated": {
+            "reason": "Custom term no longer needed in lieu of suitable AAT term.",
+            "replacement": "Filter on `Manuscript Designations` (http://vocab.getty.edu/aat/300404013) instead.",
+            "since": "2020-10-29"
+          }
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404013",
+          "type": "Type",
+          "_label": "Manuscript Designations"
+        }
+      ],
+      "content": "Ms. Ludwig V 7"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/name/e03c6c4a-f85a-5017-8273-2eaf7a710350",
+      "type": "Name",
+      "_label": "Preferred Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "Missal of Bishop Antonio Scarampi",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English (language)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/identifier/tms-id",
+      "type": "Identifier",
+      "_label": "Gallery Systems' TMS ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Gallery Systems' TMS ID` (https://data.getty.edu/local/thesaurus/tms-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID"
+        }
+      ],
+      "content": "1584"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/identifier/dor-uuid",
+      "type": "Identifier",
+      "_label": "Getty DOR UUID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR UUID` (https://data.getty.edu/local/thesaurus/dor-uuid) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID"
+        }
+      ],
+      "content": "00015a8d-3b06-4373-911e-2d867ff862f4"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/771dcfd9-7053-535d-a7be-75836ab491c9",
+      "type": "LinguisticObject",
+      "_label": "Citation (Bibliographic Reference)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311705",
+          "type": "Type",
+          "_label": "Citations (Bibliographic References)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/1a753a15-d7ec-4ff3-ac41-8a4f74e14b67",
+          "type": "LinguisticObject",
+          "_label": "Clermont-Ganneau, Charles. \"Observations relatives à la communication de M. Philippe Berger sur le mémoire de M. le Baron de Landau sur les fouilles du temple d'Esmoun, près de Sidon. (livres offerts de la séance du 23 décembre 1904).\" Comptes rendus des séances de l'Académie des Inscriptions et Belles-Lettres 48, no. 6 (1904)"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/771dcfd9-7053-535d-a7be-75836ab491c9/sequence",
+          "type": "Dimension",
+          "_label": "Citation (Bibliographic Reference) Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 1,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/cb4f0b99-47e1-5400-8d86-2508c42dd30b",
+      "type": "LinguisticObject",
+      "_label": "Citation (Bibliographic Reference)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311705",
+          "type": "Type",
+          "_label": "Citations (Bibliographic References)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/2c1df96e-887c-4fd5-b66b-7eb2170ebf8d",
+          "type": "LinguisticObject",
+          "_label": "Rossi, Filippo. Mostra storica della legatura artistica in Palazzo Pitti (Florence: Stabilimenti grafici A. Vallecchi, 1922)"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/cb4f0b99-47e1-5400-8d86-2508c42dd30b/sequence",
+          "type": "Dimension",
+          "_label": "Citation (Bibliographic Reference) Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 2,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/af4e454c-36f2-5068-aa89-952246628b45",
+      "type": "LinguisticObject",
+      "_label": "Citation (Bibliographic Reference)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311705",
+          "type": "Type",
+          "_label": "Citations (Bibliographic References)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/bdc1f023-869d-489d-9fba-0011128fc5cb",
+          "type": "LinguisticObject",
+          "_label": "von Euw, Anton, and Joachim M. Plotzek. Die Handschriften der Sammlung Ludwig. 4 vols. (Cologne: Schnütgen-Museum, 1979-1985), vol. 1 (1979)"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/af4e454c-36f2-5068-aa89-952246628b45/sequence",
+          "type": "Dimension",
+          "_label": "Citation (Bibliographic Reference) Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 3,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/346255cb-a99b-57c2-b2e9-ee37ceee6c2f",
+      "type": "LinguisticObject",
+      "_label": "Citation (Bibliographic Reference)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311705",
+          "type": "Type",
+          "_label": "Citations (Bibliographic References)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/0e2422ed-cff0-4349-9848-08d9fef0aaf5",
+          "type": "LinguisticObject",
+          "_label": "\"Manuscript Acquisitions: The Ludwig Collection.\" The J. Paul Getty Museum Journal 12 (1984)"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/346255cb-a99b-57c2-b2e9-ee37ceee6c2f/sequence",
+          "type": "Dimension",
+          "_label": "Citation (Bibliographic Reference) Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 4,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ],
+      "format": "text/html",
+      "subject_of": [
+        {
+          "id": "http://www.getty.edu/publications/virtuallibrary/0892360798.html",
+          "type": "LinguisticObject",
+          "_label": "\"Manuscript Acquisitions: The Ludwig Collection.\" The J. Paul Getty Museum Journal 12 (1984)",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/ec723f3b-d8ee-5390-a99e-7de9430a9d5d",
+      "type": "LinguisticObject",
+      "_label": "Citation (Bibliographic Reference)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311705",
+          "type": "Type",
+          "_label": "Citations (Bibliographic References)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/4d2a9985-69af-4e60-8312-e3fec89693ac",
+          "type": "LinguisticObject",
+          "_label": "Pasqualetti, Cristiana. “I ‘Segreti d’arti diverse’ della Biblioteca Marciana di Venezia, Matteo da Terranova e fra’ Vicenzo Pontano da Fondi: contributi sulla miniatura meridionale del Cinquecento,” Rivista di storia della miniatura 18 (2014).\r\n\r\n\r\n"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/citation/ec723f3b-d8ee-5390-a99e-7de9430a9d5d/sequence",
+          "type": "Dimension",
+          "_label": "Citation (Bibliographic Reference) Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 5,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/rights/ddf7f9d5-fe54-517c-a1bb-0ef42f5c4816",
+      "type": "LinguisticObject",
+      "_label": "Source Credit Line",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435418",
+          "type": "Type",
+          "_label": "Credit Line"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404764",
+          "type": "Type",
+          "_label": "Sources (General Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/culture/228b81fa-8252-5f37-bbc0-41beeaaaf3a2",
+      "type": "LinguisticObject",
+      "_label": "Culture Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055768",
+          "type": "Type",
+          "_label": "Culture"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/description/be4e37a6-73e3-551a-847e-9ee5c9bc15da",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "This luxurious missal, a kind of manuscript used in Christian church services by a priest and his assistants, was made in the sixteenth century for the bishop of Nola, Antonio Scarampi (1516–76), who lived in what is now Italy. His coat of arms appears at the beginning and end of the manuscript along with his name. The manuscript features masterful decoration executed by the illuminator Fra Vincentius a Fundis (“fra” means “brother” and indicates that Vincentius was a member of a religious order, specifically the Dominicans). His painterly illuminations are representative of a late Renaissance style, called Mannerism, which is characterized by bright colors, animated brushstrokes, exaggerated forms, and flat backgrounds.  \n\nThe volume opens with a page with a colorful floral border, and, elsewhere, a full-page image of the Crucifixion is set within an architectural frame made to appear like a marble entablature. The text is arranged in a single column and is augmented by decorated letters, many of which feature either the priest performing the Mass, Christ (both as an infant and as an adult), or chubby winged children called putti. The codex also has musical notation for the sung portions of the Christian Mass. \n\nThis missal attests to the ongoing vibrancy of the manuscript tradition in Nola in the mid-sixteenth century despite the push to print service books so as to ensure their conformity to the reformed standards of Catholic ritual.",
+      "format": "text/markdown",
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/description/be4e37a6-73e3-551a-847e-9ee5c9bc15da/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/description/be4e37a6-73e3-551a-847e-9ee5c9bc15da/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/description/a35ff20e-c6e6-5427-9a09-c2bf4e2ac70f",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "deprecated": {
+        "reason": "Migration from HTML to Markdown for Object Descriptions.",
+        "replacement": "Additionally filter Object Descriptions via the `format` property to select between the 'text/html' or 'text/markdown' variants during the deprecation period.",
+        "since": "2021-06-28"
+      },
+      "format": "text/html",
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/description/a35ff20e-c6e6-5427-9a09-c2bf4e2ac70f/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/description/a35ff20e-c6e6-5427-9a09-c2bf4e2ac70f/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/element",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Measurement (Element)",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dimensions-measurement-element",
+          "type": "Type",
+          "_label": "Dimensions Measurement (Element)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/element/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-leaf",
+              "type": "Type",
+              "_label": "Dimensions Measured: Leaf"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/element/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/element/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Leaf"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/statement",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/statement/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-leaf",
+              "type": "Type",
+              "_label": "Dimensions Measured: Leaf"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/statement/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/statement/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Leaf"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/formatted",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Measurement (Formatted)",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dimensions-measurement-formatted",
+          "type": "Type",
+          "_label": "Dimensions Measurement (Formatted)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/formatted/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-leaf",
+              "type": "Type",
+              "_label": "Dimensions Measured: Leaf"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/formatted/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/formatted/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/dimensions/4883f662-6bce-5227-8ee1-0fce237a9d8e/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Leaf"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/materials/0123ae7e-73f1-59ee-9a35-1a7a25de1311",
+      "type": "LinguisticObject",
+      "_label": "Materials Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Tempera and gold leaf"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/type",
+      "type": "LinguisticObject",
+      "_label": "Object Type",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Object/Work Type (Category)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Manuscript"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/place/created",
+      "type": "LinguisticObject",
+      "_label": "Place Created",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435448",
+          "type": "Type",
+          "_label": "Creation Place Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/image/da4dac64-5bca-55a7-b825-3559e7a3e70a",
+      "type": "LinguisticObject",
+      "_label": "Related Media (Image): fol. 77v",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300230425",
+          "type": "Type",
+          "_label": "Information Artifacts"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Images"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/da4dac64-5bca-55a7-b825-3559e7a3e70a",
+          "type": "LinguisticObject",
+          "_label": "fol. 77v"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/image/da4dac64-5bca-55a7-b825-3559e7a3e70a/sequence",
+          "type": "Dimension",
+          "_label": "Related Media Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 1,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/image/58ecd948-6119-5a7d-9c87-e43170c88755",
+      "type": "LinguisticObject",
+      "_label": "Related Media (Image): front cover",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300230425",
+          "type": "Type",
+          "_label": "Information Artifacts"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Images"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/58ecd948-6119-5a7d-9c87-e43170c88755",
+          "type": "LinguisticObject",
+          "_label": "front cover"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/image/58ecd948-6119-5a7d-9c87-e43170c88755/sequence",
+          "type": "Dimension",
+          "_label": "Related Media Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 2,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/image/ca11309f-3ada-54a7-9056-b315aad4471f",
+      "type": "LinguisticObject",
+      "_label": "Related Media (Image): Book Image (crop from .77v)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300230425",
+          "type": "Type",
+          "_label": "Information Artifacts"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Images"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/ca11309f-3ada-54a7-9056-b315aad4471f",
+          "type": "LinguisticObject",
+          "_label": "Book Image (crop from .77v)"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/image/ca11309f-3ada-54a7-9056-b315aad4471f/sequence",
+          "type": "Dimension",
+          "_label": "Related Media Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 3,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "type": "LinguisticObject",
+      "_label": "Creative Commons License",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/object/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Rights Statement` (https://data.getty.edu/local/thesaurus/rights-statement) instead.",
+            "since": "2020-11-10"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417696",
+          "type": "Type",
+          "_label": "Rights (Legal Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "deprecated": {
+        "reason": "Due to improved rights assertion/license metadata modelling this `LinguisticObject` will be removed in a future update.",
+        "replacement": "Obtain rights assertion/license metadata from the `Right` entity under this document's `subject_to` property instead.",
+        "since": "2023-08-16"
+      }
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://data.getty.edu/media/image/735c0364-8b1e-5d08-84e0-0ceabafdd1e9",
+      "type": "VisualItem",
+      "_label": "Related Media (Image): 00343701 / dd95065b813958028ef72d770cce3d971e43d324",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/media/image/735c0364-8b1e-5d08-84e0-0ceabafdd1e9/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "dd95065b813958028ef72d770cce3d971e43d324"
+        },
+        {
+          "id": "https://data.getty.edu/media/image/735c0364-8b1e-5d08-84e0-0ceabafdd1e9/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "00343701"
+        }
+      ],
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/da4dac64-5bca-55a7-b825-3559e7a3e70a/sequence-assignment",
+          "type": "AttributeAssignment",
+          "_label": "Related Media Sequence Assignment",
+          "used_specific_object": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/set",
+              "type": "Set",
+              "_label": "Related Media Set for Missal of Bishop Antonio Scarampi (Ms. Ludwig V 7 (83.MG.82))"
+            }
+          ],
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/da4dac64-5bca-55a7-b825-3559e7a3e70a/sequence-position",
+              "type": "Dimension",
+              "_label": "Related Media Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "format": "application/ld+json"
+    },
+    {
+      "id": "https://data.getty.edu/media/image/30c90fb4-539f-5fec-8fc0-394df8df5829",
+      "type": "VisualItem",
+      "_label": "Related Media (Image): 13885401 / 8b4d4aeffaf383b4a0e89bf3a19b7ee3b0cdf8e0",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/media/image/30c90fb4-539f-5fec-8fc0-394df8df5829/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "8b4d4aeffaf383b4a0e89bf3a19b7ee3b0cdf8e0"
+        },
+        {
+          "id": "https://data.getty.edu/media/image/30c90fb4-539f-5fec-8fc0-394df8df5829/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "13885401"
+        }
+      ],
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/58ecd948-6119-5a7d-9c87-e43170c88755/sequence-assignment",
+          "type": "AttributeAssignment",
+          "_label": "Related Media Sequence Assignment",
+          "used_specific_object": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/set",
+              "type": "Set",
+              "_label": "Related Media Set for Missal of Bishop Antonio Scarampi (Ms. Ludwig V 7 (83.MG.82))"
+            }
+          ],
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/58ecd948-6119-5a7d-9c87-e43170c88755/sequence-position",
+              "type": "Dimension",
+              "_label": "Related Media Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 2,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "format": "application/ld+json"
+    },
+    {
+      "id": "https://data.getty.edu/media/image/15f9cc92-4c34-54f3-a573-be99c2e079f3",
+      "type": "VisualItem",
+      "_label": "Related Media (Image): 00158401 / e386a0e7d807544142dd69d56056c9711d9e3be5",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/media/image/15f9cc92-4c34-54f3-a573-be99c2e079f3/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "e386a0e7d807544142dd69d56056c9711d9e3be5"
+        },
+        {
+          "id": "https://data.getty.edu/media/image/15f9cc92-4c34-54f3-a573-be99c2e079f3/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "00158401"
+        }
+      ],
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/ca11309f-3ada-54a7-9056-b315aad4471f/sequence-assignment",
+          "type": "AttributeAssignment",
+          "_label": "Related Media Sequence Assignment",
+          "used_specific_object": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/set",
+              "type": "Set",
+              "_label": "Related Media Set for Missal of Bishop Antonio Scarampi (Ms. Ludwig V 7 (83.MG.82))"
+            }
+          ],
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/related/media/ca11309f-3ada-54a7-9056-b315aad4471f/sequence-position",
+              "type": "Dimension",
+              "_label": "Related Media Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 3,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "format": "application/ld+json"
+    }
+  ],
+  "produced_by": {
+    "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production",
+    "type": "Production",
+    "_label": "Production of Artwork",
+    "timespan": {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/timespan",
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/timespan/display",
+          "type": "Name",
+          "_label": "Dates",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300458798",
+              "type": "Type",
+              "_label": "Display Names"
+            }
+          ],
+          "content": "1567"
+        }
+      ],
+      "begin_of_the_begin": "1567-01-01T00:00:00",
+      "end_of_the_end": "1567-12-31T23:59:59"
+    },
+    "part": [
+      {
+        "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/851e78fd-1687-5347-a604-f09df466ae01",
+        "type": "Production",
+        "_label": "Production of Artwork by Fra Vincentius a Fundis",
+        "referred_to_by": [
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/851e78fd-1687-5347-a604-f09df466ae01/producer-description",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Description",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/producer-description",
+                "type": "Type",
+                "_label": "Producer Description",
+                "deprecated": {
+                  "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+                  "replacement": "Filter on `Producer Description` (https://data.getty.edu/local/thesaurus/producer-description) instead.",
+                  "since": "2020-11-10"
+                }
+              },
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-description",
+                "type": "Type",
+                "_label": "Producer Description"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Fra Vincentius a Fundis (Italian, active about 1560s)"
+          },
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/851e78fd-1687-5347-a604-f09df466ae01/producer-name",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Name",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-name",
+                "type": "Type",
+                "_label": "Producer Name"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Fra Vincentius a Fundis"
+          },
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/851e78fd-1687-5347-a604-f09df466ae01/producer-nationality-and-dates",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Nationality & Dates",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/local/thesaurus/nationality-and-dates",
+                "type": "Type",
+                "_label": "Producer Nationality & Dates"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Italian, active about 1560s"
+          }
+        ],
+        "carried_out_by": [
+          {
+            "id": "https://data.getty.edu/museum/collection/person/c2f20710-5c17-4964-a232-d74e2ec69582",
+            "type": "Person",
+            "_label": "Fra Vincentius a Fundis",
+            "referred_to_by": [
+              {
+                "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/851e78fd-1687-5347-a604-f09df466ae01/role-statement",
+                "type": "LinguisticObject",
+                "_label": "Artist/Maker (Producer) Role Statement",
+                "classified_as": [
+                  {
+                    "id": "https://data.getty.edu/museum/ontology/linked-data/object/artist-maker-role-statement",
+                    "type": "Type",
+                    "_label": "Artist/Maker (Producer) Role Statement",
+                    "deprecated": {
+                      "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+                      "replacement": "Filter on `Artist/Maker Role Statement` (https://data.getty.edu/local/thesaurus/artist-maker-role-statement) instead.",
+                      "since": "2020-11-10"
+                    }
+                  },
+                  {
+                    "id": "https://data.getty.edu/local/thesaurus/producer-role-statement",
+                    "type": "Type",
+                    "_label": "Artist/Maker (Producer) Role Statement"
+                  },
+                  {
+                    "id": "http://vocab.getty.edu/aat/300418049",
+                    "type": "Type",
+                    "_label": "Brief Text"
+                  }
+                ],
+                "content": "Illuminator",
+                "close_match": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300025122",
+                    "type": "Type",
+                    "_label": "Illuminator"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/ef06416f-1e95-5741-9eeb-11a26ebebbf5",
+        "type": "Production",
+        "_label": "Production of Artwork by Fra Vincentius a Fundis",
+        "referred_to_by": [
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/ef06416f-1e95-5741-9eeb-11a26ebebbf5/producer-description",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Description",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/producer-description",
+                "type": "Type",
+                "_label": "Producer Description",
+                "deprecated": {
+                  "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+                  "replacement": "Filter on `Producer Description` (https://data.getty.edu/local/thesaurus/producer-description) instead.",
+                  "since": "2020-11-10"
+                }
+              },
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-description",
+                "type": "Type",
+                "_label": "Producer Description"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "and Fra Vincentius a Fundis (Italian, active about 1560s)"
+          },
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/ef06416f-1e95-5741-9eeb-11a26ebebbf5/producer-name",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Name",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-name",
+                "type": "Type",
+                "_label": "Producer Name"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Fra Vincentius a Fundis"
+          },
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/ef06416f-1e95-5741-9eeb-11a26ebebbf5/producer-name-prefix",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Name Prefix",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-name-prefix",
+                "type": "Type",
+                "_label": "Producer Name Prefix"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "and"
+          },
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/ef06416f-1e95-5741-9eeb-11a26ebebbf5/producer-nationality-and-dates",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Nationality & Dates",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/local/thesaurus/nationality-and-dates",
+                "type": "Type",
+                "_label": "Producer Nationality & Dates"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Italian, active about 1560s"
+          }
+        ],
+        "carried_out_by": [
+          {
+            "id": "https://data.getty.edu/museum/collection/person/c2f20710-5c17-4964-a232-d74e2ec69582",
+            "type": "Person",
+            "_label": "Fra Vincentius a Fundis",
+            "referred_to_by": [
+              {
+                "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/production/ef06416f-1e95-5741-9eeb-11a26ebebbf5/role-statement",
+                "type": "LinguisticObject",
+                "_label": "Artist/Maker (Producer) Role Statement",
+                "classified_as": [
+                  {
+                    "id": "https://data.getty.edu/museum/ontology/linked-data/object/artist-maker-role-statement",
+                    "type": "Type",
+                    "_label": "Artist/Maker (Producer) Role Statement",
+                    "deprecated": {
+                      "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+                      "replacement": "Filter on `Artist/Maker Role Statement` (https://data.getty.edu/local/thesaurus/artist-maker-role-statement) instead.",
+                      "since": "2020-11-10"
+                    }
+                  },
+                  {
+                    "id": "https://data.getty.edu/local/thesaurus/producer-role-statement",
+                    "type": "Type",
+                    "_label": "Artist/Maker (Producer) Role Statement"
+                  },
+                  {
+                    "id": "http://vocab.getty.edu/aat/300418049",
+                    "type": "Type",
+                    "_label": "Brief Text"
+                  }
+                ],
+                "content": "Scribe",
+                "close_match": [
+                  {
+                    "id": "http://vocab.getty.edu/aat/300025580",
+                    "type": "Type",
+                    "_label": "Scribe"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "current_keeper": [
+    {
+      "id": "https://data.getty.edu/museum/collection/group/e363386c-a910-4a8f-9b19-8e4a0c19382d",
+      "type": "Group",
+      "_label": "Manuscripts (Curatorial Department)"
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://www.getty.edu/art/collection/object/105SW8",
+      "type": "LinguisticObject",
+      "_label": "Homepage for Missal of Bishop Antonio Scarampi (Ms. Ludwig V 7 (83.MG.82)) (HumanMadeObject)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300264578",
+          "type": "Type",
+          "_label": "Web Page"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary"
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "has_format": "https://media.getty.edu/iiif/manifest/3/a1ad2fe8-b4f0-4af0-8927-0e002b8bf197",
+      "id": "https://media.getty.edu/iiif/manifest/2/a1ad2fe8-b4f0-4af0-8927-0e002b8bf197",
+      "type": "InformationObject",
+      "_label": "IIIF Manifest URL",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/iiif-manifest",
+          "type": "Type",
+          "_label": "IIIF Manifest"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/presentation",
+          "type": "InformationObject",
+          "_label": "IIIF Presentation API"
+        }
+      ],
+      "format": "application/ld+json;profile=\"http://iiif.io/api/presentation/2/context.json\""
+    },
+    {
+      "has_format": "https://media.getty.edu/iiif/manifest/2/a1ad2fe8-b4f0-4af0-8927-0e002b8bf197",
+      "id": "https://media.getty.edu/iiif/manifest/3/a1ad2fe8-b4f0-4af0-8927-0e002b8bf197",
+      "type": "InformationObject",
+      "_label": "IIIF Manifest URL",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/iiif-manifest",
+          "type": "Type",
+          "_label": "IIIF Manifest"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/presentation",
+          "type": "InformationObject",
+          "_label": "IIIF Presentation API"
+        }
+      ],
+      "format": "application/ld+json;profile=\"http://iiif.io/api/presentation/3/context.json\""
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://media.getty.edu/iiif/image/6e1f7fb5-98cb-40e9-9e76-ff38017f0176/full/full/0/default.jpg",
+      "type": "VisualItem",
+      "_label": "Object Overall Image (00343701)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://media.getty.edu/iiif/image/6e1f7fb5-98cb-40e9-9e76-ff38017f0176/full/full/0/default.jpg/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "dd95065b813958028ef72d770cce3d971e43d324"
+        },
+        {
+          "id": "https://media.getty.edu/iiif/image/6e1f7fb5-98cb-40e9-9e76-ff38017f0176/full/full/0/default.jpg/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "00343701"
+        }
+      ],
+      "deprecated": {
+        "reason": "Please note that in the future, the `representation` property's image, referenced by the `id` property, will be smaller than that currently offered.",
+        "replacement": "Larger images, if needed, will be available via the IIIF Image API endpoints referenced within this document's `shows` property instead.",
+        "since": "2021-03-08"
+      },
+      "format": "image/jpeg"
+    }
+  ],
+  "subject_to": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/licensing",
+      "type": "Right",
+      "_label": "License for Collection Metadata",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417696",
+          "type": "Type",
+          "_label": "Rights (Legal Concept)"
+        },
+        {
+          "id": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "type": "Type",
+          "_label": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/licensing/display-name",
+          "type": "Name",
+          "_label": "License Display Name",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300458798",
+              "type": "Type",
+              "_label": "Display Name"
+            }
+          ],
+          "content": "Public Domain"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/licensing/description",
+          "type": "LinguisticObject",
+          "_label": "License Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ],
+          "content": "No Copyright"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+          "type": "Group",
+          "_label": "J. Paul Getty Museum, Los Angeles, California",
+          "member_of": [
+            {
+              "id": "http://vocab.getty.edu/ulan/500115987",
+              "type": "Group",
+              "_label": "The J. Paul Getty Trust, Los Angeles, California",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500000003",
+                  "type": "Type",
+                  "_label": "Corporate Bodies"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "representation": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/licensing/display-icon",
+          "type": "VisualItem",
+          "_label": "License Display Icon",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300266210",
+              "type": "Type",
+              "_label": "Display Icon"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "format": "image/svg",
+          "digitally_shown_by": [
+            {
+              "type": "DigitalObject",
+              "_label": "License Display Icon",
+              "access_point": [
+                {
+                  "id": "https://rightsstatements.org/files/icons/NoC.Icon-Only.dark.svg",
+                  "type": "DigitalObject",
+                  "_label": "License Display Icon URL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subject_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4/licensing/acknowledgements",
+          "type": "LinguisticObject",
+          "_label": "Acknowledgements for Collection Metadata",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300026687",
+              "type": "Type",
+              "_label": "Acknowledgements"
+            }
+          ],
+          "content": "Collection metadata provided by the J. Paul Getty Museum. Licensed under CC0 1.0 (http://creativecommons.org/publicdomain/zero/1.0/)."
+        }
+      ]
+    }
+  ]
+}

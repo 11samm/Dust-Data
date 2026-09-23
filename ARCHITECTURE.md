@@ -1,5 +1,7 @@
 # Metadata Completeness Triage — Architecture
 
+> Getty expansion note: the Cleveland design below remains the baseline. The Getty exploratory path combines one documented embedded-AAT object (*Irises*) with stable SPARQL discovery to form 5, 25, 50, or 100-object samples, fetches Linked.Art JSON-LD, adapts fields into the shared record model, and reuses normalization and scoring. New cache payloads carry `source` and `schema_version`; legacy Cleveland caches remain readable. Internal evidence identity is `source_name:id`, while accession numbers remain display values. Medium resolution checks relevant embedded Getty AAT IDs, then the local vocabulary, then cached and live Getty AAT reconciliation; unmatched terms remain unresolved. IIIF manifest rights are resolved before scoring and stored with the cohort so it reloads offline. Remote AAT candidates are review evidence and do not change medium scores automatically. An unassessed Getty image is excluded from the composite denominator.
+
 A Streamlit dashboard that samples 250–1,000 artwork records from the Cleveland Museum of Art Open Access API, turns inconsistent catalog text into a completeness score, and ranks the records a collections team should clean up first.
 
 The product is a triage queue. The hard work is the scoring policy: deciding what counts as a date, how precise that date is, when a medium is specific enough, and when an attribution is clear. The application code exists to apply that policy the same way every time and to show the evidence.

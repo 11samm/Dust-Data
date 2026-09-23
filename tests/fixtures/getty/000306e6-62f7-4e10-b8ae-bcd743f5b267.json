@@ -1,0 +1,1289 @@
+{
+  "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267",
+  "type": "HumanMadeObject",
+  "_label": "[Guignol, Jardin du Luxembourg] (90.XM.64.75)",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300133025",
+      "type": "Type",
+      "_label": "Artwork"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300046300",
+      "type": "Type",
+      "_label": "Photographs",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435444",
+          "type": "Type",
+          "_label": "Classification (Category)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/local/thesaurus/object-record-structure-whole",
+      "type": "Type",
+      "_label": "Object Record Structure: Whole",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-record-structure-type",
+          "type": "Type",
+          "_label": "Object Record Structure Type"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/identifier/8667747a-3e29-5d0b-8dc2-70f9289a5d24",
+      "type": "Identifier",
+      "_label": "Accession Number",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Identification Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "90.XM.64.75"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/name/0e98b7a0-9f5e-5e30-b60f-86adb00d1849",
+      "type": "Name",
+      "_label": "Alternate Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417227",
+          "type": "Type",
+          "_label": "Alternate Title"
+        },
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/titles/primary",
+          "type": "Type",
+          "_label": "Primary Title",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on the `https://data.getty.edu/local/thesaurus/object-title-*` terms instead.",
+            "since": "2020-11-11"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-title-primary",
+          "type": "Type",
+          "_label": "Primary Title"
+        }
+      ],
+      "content": "[Guignol, Jardin du Luxembourg]",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French (language)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/name/6877558f-5d06-534e-aaf1-f0b475d5854e",
+      "type": "Name",
+      "_label": "Alternate Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417227",
+          "type": "Type",
+          "_label": "Alternate Title"
+        },
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/titles/translated",
+          "type": "Type",
+          "_label": "Translated Title",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on the `https://data.getty.edu/local/thesaurus/object-title-*` terms instead.",
+            "since": "2020-11-11"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-title-translated",
+          "type": "Type",
+          "_label": "Translated Title"
+        }
+      ],
+      "content": "[Puppet Show, Luxembourg Gardens]",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English (language)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/identifier/dor-id",
+      "type": "Identifier",
+      "_label": "Getty DOR ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR ID` (https://data.getty.edu/local/thesaurus/dor-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID"
+        }
+      ],
+      "content": "63510"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/identifier/slug-id",
+      "type": "Identifier",
+      "_label": "Slug Identifier",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/slug-identifier",
+          "type": "Type",
+          "_label": "Slug Identifier"
+        }
+      ],
+      "content": "urn:getty-local:idm:object:slug/104JMR"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/name/0e98b7a0-9f5e-5e30-b60f-86adb00d1849",
+      "type": "Name",
+      "_label": "Preferred Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "[Guignol, Jardin du Luxembourg]",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388306",
+          "type": "Language",
+          "_label": "French (language)"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/identifier/tms-id",
+      "type": "Identifier",
+      "_label": "Gallery Systems' TMS ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Gallery Systems' TMS ID` (https://data.getty.edu/local/thesaurus/tms-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID"
+        }
+      ],
+      "content": "70035"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/identifier/dor-uuid",
+      "type": "Identifier",
+      "_label": "Getty DOR UUID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR UUID` (https://data.getty.edu/local/thesaurus/dor-uuid) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID"
+        }
+      ],
+      "content": "000306e6-62f7-4e10-b8ae-bcd743f5b267"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/citation/8b3af867-a74c-54d1-9d34-e185880ff39c",
+      "type": "LinguisticObject",
+      "_label": "Citation (Bibliographic Reference)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300311705",
+          "type": "Type",
+          "_label": "Citations (Bibliographic References)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/10c44ddf-3427-4d1b-ae75-b636f3789444",
+          "type": "LinguisticObject",
+          "_label": "Szarkowski, John and Maria Morris Hambourg. The Work of Atget. 4 vols. (New York: Museum of Modern Art; Boston: Distributed by New York Graphic Society, 1981-1985) vol. 4"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/citation/8b3af867-a74c-54d1-9d34-e185880ff39c/sequence",
+          "type": "Dimension",
+          "_label": "Citation (Bibliographic Reference) Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 1,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/rights/12508530-19a2-5fe9-b9a2-34cdc2198166",
+      "type": "LinguisticObject",
+      "_label": "Source Credit Line",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435418",
+          "type": "Type",
+          "_label": "Credit Line"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404764",
+          "type": "Type",
+          "_label": "Sources (General Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/culture/4d8e9b23-c9e9-5cbe-8e9b-da69c1f47a8f",
+      "type": "LinguisticObject",
+      "_label": "Culture Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055768",
+          "type": "Type",
+          "_label": "Culture"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/description/9ee2fa59-3b4e-5022-9eef-6d516a5c14cd",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Children watching puppet show, including Lartigue",
+      "format": "text/markdown",
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/description/9ee2fa59-3b4e-5022-9eef-6d516a5c14cd/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/description/9ee2fa59-3b4e-5022-9eef-6d516a5c14cd/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/description/583276ac-91a1-52f6-b172-f0a663eaaef0",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "deprecated": {
+        "reason": "Migration from HTML to Markdown for Object Descriptions.",
+        "replacement": "Additionally filter Object Descriptions via the `format` property to select between the 'text/html' or 'text/markdown' variants during the deprecation period.",
+        "since": "2021-06-28"
+      },
+      "format": "text/html",
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/description/583276ac-91a1-52f6-b172-f0a663eaaef0/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/description/583276ac-91a1-52f6-b172-f0a663eaaef0/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/element",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Measurement (Element)",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dimensions-measurement-element",
+          "type": "Type",
+          "_label": "Dimensions Measurement (Element)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/element/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-image",
+              "type": "Type",
+              "_label": "Dimensions Measured: Image"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/element/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/element/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Image"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/statement",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/statement/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-image",
+              "type": "Type",
+              "_label": "Dimensions Measured: Image"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/statement/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/statement/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Image"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/formatted",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Measurement (Formatted)",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dimensions-measurement-formatted",
+          "type": "Type",
+          "_label": "Dimensions Measurement (Formatted)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/formatted/attribute/technique",
+          "type": "AttributeAssignment",
+          "technique": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/dimensions-measured-image",
+              "type": "Type",
+              "_label": "Dimensions Measured: Image"
+            }
+          ]
+        },
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/formatted/attribute/sequence",
+          "type": "AttributeAssignment",
+          "assigned_property": "dimension",
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/formatted/attribute/sequence/position",
+              "type": "Dimension",
+              "_label": "Dimensions Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "member_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/dimensions/76c71d51-4bd5-5c94-b176-a0d5f8378905/set",
+          "type": "Set",
+          "_label": "Dimensions Set: Image"
+        }
+      ]
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/materials/0123ae7e-73f1-59ee-9a35-1a7a25de1311",
+      "type": "LinguisticObject",
+      "_label": "Materials Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Albumen silver print"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/type",
+      "type": "LinguisticObject",
+      "_label": "Object Type",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Object/Work Type (Category)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Print"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/place/created",
+      "type": "LinguisticObject",
+      "_label": "Place Created",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435448",
+          "type": "Type",
+          "_label": "Creation Place Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/related/image/70c6ced8-478e-54cc-ad4d-e3fc22769f68",
+      "type": "LinguisticObject",
+      "_label": "Related Media (Image): Main View",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300230425",
+          "type": "Type",
+          "_label": "Information Artifacts"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Images"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "about": [
+        {
+          "id": "https://data.getty.edu/museum/collection/document/70c6ced8-478e-54cc-ad4d-e3fc22769f68",
+          "type": "LinguisticObject",
+          "_label": "Main View"
+        }
+      ],
+      "dimension": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/related/image/70c6ced8-478e-54cc-ad4d-e3fc22769f68/sequence",
+          "type": "Dimension",
+          "_label": "Related Media Sequence",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300010269",
+              "type": "Type",
+              "_label": "Positional Attributes"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300192339",
+              "type": "Type",
+              "_label": "Sequences"
+            }
+          ],
+          "value": 1,
+          "unit": {
+            "id": "http://vocab.getty.edu/aat/300055665",
+            "type": "MeasurementUnit",
+            "_label": "Numbers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "http://creativecommons.org/publicdomain/zero/1.0/",
+      "type": "LinguisticObject",
+      "_label": "Creative Commons License",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/object/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement",
+          "deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Rights Statement` (https://data.getty.edu/local/thesaurus/rights-statement) instead.",
+            "since": "2020-11-10"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417696",
+          "type": "Type",
+          "_label": "Rights (Legal Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "deprecated": {
+        "reason": "Due to improved rights assertion/license metadata modelling this `LinguisticObject` will be removed in a future update.",
+        "replacement": "Obtain rights assertion/license metadata from the `Right` entity under this document's `subject_to` property instead.",
+        "since": "2023-08-16"
+      }
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://data.getty.edu/media/image/778801c9-c474-5724-9252-dcc9c928e8d2",
+      "type": "VisualItem",
+      "_label": "Related Media (Image): 07003501 / bb4592baf20ea03c2fa35b98f7c3e2f60f838e12",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/media/image/778801c9-c474-5724-9252-dcc9c928e8d2/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "bb4592baf20ea03c2fa35b98f7c3e2f60f838e12"
+        },
+        {
+          "id": "https://data.getty.edu/media/image/778801c9-c474-5724-9252-dcc9c928e8d2/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "07003501"
+        }
+      ],
+      "assigned_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/related/media/70c6ced8-478e-54cc-ad4d-e3fc22769f68/sequence-assignment",
+          "type": "AttributeAssignment",
+          "_label": "Related Media Sequence Assignment",
+          "used_specific_object": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/related/media/set",
+              "type": "Set",
+              "_label": "Related Media Set for [Guignol, Jardin du Luxembourg] (90.XM.64.75)"
+            }
+          ],
+          "assigned": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/related/media/70c6ced8-478e-54cc-ad4d-e3fc22769f68/sequence-position",
+              "type": "Dimension",
+              "_label": "Related Media Sequence",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300010269",
+                  "type": "Type",
+                  "_label": "Positional Attributes"
+                },
+                {
+                  "id": "http://vocab.getty.edu/aat/300192339",
+                  "type": "Type",
+                  "_label": "Sequences"
+                }
+              ],
+              "value": 1,
+              "unit": {
+                "id": "http://vocab.getty.edu/aat/300055665",
+                "type": "MeasurementUnit",
+                "_label": "Numbers"
+              }
+            }
+          ]
+        }
+      ],
+      "format": "application/ld+json"
+    }
+  ],
+  "produced_by": {
+    "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/production",
+    "type": "Production",
+    "_label": "Production of Artwork by Eugène Atget",
+    "referred_to_by": [
+      {
+        "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/production/0c90ec21-0514-53c8-aa49-ef5b3d7fe023/producer-description",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Description",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/producer-description",
+            "type": "Type",
+            "_label": "Producer Description",
+            "deprecated": {
+              "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+              "replacement": "Filter on `Producer Description` (https://data.getty.edu/local/thesaurus/producer-description) instead.",
+              "since": "2020-11-10"
+            }
+          },
+          {
+            "id": "https://data.getty.edu/local/thesaurus/producer-description",
+            "type": "Type",
+            "_label": "Producer Description"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "Eugène Atget (French, 1857 - 1927)"
+      },
+      {
+        "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/production/0c90ec21-0514-53c8-aa49-ef5b3d7fe023/producer-name",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Name",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/local/thesaurus/producer-name",
+            "type": "Type",
+            "_label": "Producer Name"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "Eugène Atget"
+      },
+      {
+        "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/production/0c90ec21-0514-53c8-aa49-ef5b3d7fe023/producer-nationality-and-dates",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Nationality & Dates",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/local/thesaurus/nationality-and-dates",
+            "type": "Type",
+            "_label": "Producer Nationality & Dates"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "French, 1857 - 1927"
+      }
+    ],
+    "timespan": {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/production/timespan",
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/production/timespan/display",
+          "type": "Name",
+          "_label": "Dates",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300458798",
+              "type": "Type",
+              "_label": "Display Names"
+            }
+          ],
+          "content": "1898"
+        }
+      ],
+      "begin_of_the_begin": "1898-01-01T00:00:00",
+      "end_of_the_end": "1898-12-31T23:59:59"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://data.getty.edu/museum/collection/person/c96bb7c5-4aab-457e-97c4-83fd4a8ae964",
+        "type": "Person",
+        "_label": "Eugène Atget",
+        "referred_to_by": [
+          {
+            "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/production/0c90ec21-0514-53c8-aa49-ef5b3d7fe023/role-statement",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Role Statement",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/museum/ontology/linked-data/object/artist-maker-role-statement",
+                "type": "Type",
+                "_label": "Artist/Maker (Producer) Role Statement",
+                "deprecated": {
+                  "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+                  "replacement": "Filter on `Artist/Maker Role Statement` (https://data.getty.edu/local/thesaurus/artist-maker-role-statement) instead.",
+                  "since": "2020-11-10"
+                }
+              },
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-role-statement",
+                "type": "Type",
+                "_label": "Artist/Maker (Producer) Role Statement"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Photographer",
+            "close_match": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025687",
+                "type": "Type",
+                "_label": "Photographer"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "current_keeper": [
+    {
+      "id": "https://data.getty.edu/museum/collection/group/3b40e6f1-ea7a-430a-8e92-ab65b75addf9",
+      "type": "Group",
+      "_label": "Photographs (Curatorial Department)"
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://www.getty.edu/art/collection/object/104JMR",
+      "type": "LinguisticObject",
+      "_label": "Homepage for [Guignol, Jardin du Luxembourg] (90.XM.64.75) (HumanMadeObject)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300264578",
+          "type": "Type",
+          "_label": "Web Page"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary"
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "has_format": "https://media.getty.edu/iiif/manifest/3/9d5353a6-8eb7-4bf1-a91f-3d8499b83fae",
+      "id": "https://media.getty.edu/iiif/manifest/2/9d5353a6-8eb7-4bf1-a91f-3d8499b83fae",
+      "type": "InformationObject",
+      "_label": "IIIF Manifest URL",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/iiif-manifest",
+          "type": "Type",
+          "_label": "IIIF Manifest"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/presentation",
+          "type": "InformationObject",
+          "_label": "IIIF Presentation API"
+        }
+      ],
+      "format": "application/ld+json;profile=\"http://iiif.io/api/presentation/2/context.json\""
+    },
+    {
+      "has_format": "https://media.getty.edu/iiif/manifest/2/9d5353a6-8eb7-4bf1-a91f-3d8499b83fae",
+      "id": "https://media.getty.edu/iiif/manifest/3/9d5353a6-8eb7-4bf1-a91f-3d8499b83fae",
+      "type": "InformationObject",
+      "_label": "IIIF Manifest URL",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/iiif-manifest",
+          "type": "Type",
+          "_label": "IIIF Manifest"
+        }
+      ],
+      "conforms_to": [
+        {
+          "id": "http://iiif.io/api/presentation",
+          "type": "InformationObject",
+          "_label": "IIIF Presentation API"
+        }
+      ],
+      "format": "application/ld+json;profile=\"http://iiif.io/api/presentation/3/context.json\""
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://media.getty.edu/iiif/image/b820548d-8b29-4e1d-a617-c4073557487c/full/full/0/default.jpg",
+      "type": "VisualItem",
+      "_label": "Object Overall Image (07003501)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300215302",
+          "type": "Type",
+          "_label": "Digital Image"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://media.getty.edu/iiif/image/b820548d-8b29-4e1d-a617-c4073557487c/full/full/0/default.jpg/id/asset",
+          "type": "Identifier",
+          "_label": "Asset ID",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-identifier",
+              "type": "Type",
+              "_label": "Asset ID"
+            }
+          ],
+          "content": "bb4592baf20ea03c2fa35b98f7c3e2f60f838e12"
+        },
+        {
+          "id": "https://media.getty.edu/iiif/image/b820548d-8b29-4e1d-a617-c4073557487c/full/full/0/default.jpg/id/name",
+          "type": "Identifier",
+          "_label": "Asset Name",
+          "classified_as": [
+            {
+              "id": "https://data.getty.edu/local/thesaurus/asset-name",
+              "type": "Type",
+              "_label": "Asset Name"
+            }
+          ],
+          "content": "07003501"
+        }
+      ],
+      "deprecated": {
+        "reason": "Please note that in the future, the `representation` property's image, referenced by the `id` property, will be smaller than that currently offered.",
+        "replacement": "Larger images, if needed, will be available via the IIIF Image API endpoints referenced within this document's `shows` property instead.",
+        "since": "2021-03-08"
+      },
+      "format": "image/jpeg"
+    }
+  ],
+  "subject_to": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/licensing",
+      "type": "Right",
+      "_label": "License for Collection Metadata",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417696",
+          "type": "Type",
+          "_label": "Rights (Legal Concept)"
+        },
+        {
+          "id": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "type": "Type",
+          "_label": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+        }
+      ],
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/licensing/display-name",
+          "type": "Name",
+          "_label": "License Display Name",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300458798",
+              "type": "Type",
+              "_label": "Display Name"
+            }
+          ],
+          "content": "Public Domain"
+        }
+      ],
+      "referred_to_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/licensing/description",
+          "type": "LinguisticObject",
+          "_label": "License Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ],
+          "content": "No Copyright"
+        }
+      ],
+      "possessed_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+          "type": "Group",
+          "_label": "J. Paul Getty Museum, Los Angeles, California",
+          "member_of": [
+            {
+              "id": "http://vocab.getty.edu/ulan/500115987",
+              "type": "Group",
+              "_label": "The J. Paul Getty Trust, Los Angeles, California",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500000003",
+                  "type": "Type",
+                  "_label": "Corporate Bodies"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "representation": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/licensing/display-icon",
+          "type": "VisualItem",
+          "_label": "License Display Icon",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300266210",
+              "type": "Type",
+              "_label": "Display Icon"
+            },
+            {
+              "id": "http://vocab.getty.edu/aat/300215302",
+              "type": "Type",
+              "_label": "Digital Image"
+            }
+          ],
+          "format": "image/svg",
+          "digitally_shown_by": [
+            {
+              "type": "DigitalObject",
+              "_label": "License Display Icon",
+              "access_point": [
+                {
+                  "id": "https://rightsstatements.org/files/icons/NoC.Icon-Only.dark.svg",
+                  "type": "DigitalObject",
+                  "_label": "License Display Icon URL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subject_of": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267/licensing/acknowledgements",
+          "type": "LinguisticObject",
+          "_label": "Acknowledgements for Collection Metadata",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300026687",
+              "type": "Type",
+              "_label": "Acknowledgements"
+            }
+          ],
+          "content": "Collection metadata provided by the J. Paul Getty Museum. Licensed under CC0 1.0 (http://creativecommons.org/publicdomain/zero/1.0/)."
+        }
+      ]
+    }
+  ]
+}

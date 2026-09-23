@@ -1,6 +1,6 @@
 # 🏛️ Dust & Data
 
-**Dust & Data** is a Streamlit dashboard that finds incomplete artwork records in the [Cleveland Museum of Art Open Access collection](https://openaccess-api.clevelandart.org/).
+**Dust & Data** is a Streamlit dashboard that reviews artwork metadata from the [Cleveland Museum of Art Open Access collection](https://openaccess-api.clevelandart.org/) and the [Getty Museum Collection API](https://data.getty.edu/museum/collection/docs/).
 
 It gives each record a metadata completeness score and creates a ranked queue of records that may need attention.
 
@@ -21,9 +21,9 @@ The app lets you:
 - Filter by department, object type, license, score, or missing information
 - Compare metadata quality using charts and summary metrics
 - Export the filtered review queue as a CSV file
-- Choose a sample of 250, 500, or 1,000 records
+- Choose a Cleveland sample of 250, 500, or 1,000 records, or a Getty exploratory sample of 5, 25, 50, or 100 objects
 
-The default sample size is **500 records**, which offers a good balance between speed and coverage.
+The default Cleveland sample size is **500 records**. Getty defaults to **25** deterministically selected objects; its sample is not a collection-wide audit.
 
 ## 📥 Download the project
 
@@ -77,14 +77,18 @@ http://localhost:8501
 
 ## 🧭 Using the dashboard
 
-1. Choose a sample mode: **Stratified**, **Department**, or **Type**.
-2. Choose a sample size. Start with **250** for speed or **500** for normal use.
+1. Choose Cleveland or Getty under **Museum**. Cleveland supports **Stratified**, **Department**, and **Type** sample modes.
+2. For Cleveland, choose a sample size. Start with **250** for speed or **500** for normal use.
 3. Select **Refresh sample** when you want a new randomized set of records.
 4. Use the sidebar filters to focus on specific metadata gaps.
 5. Select **Evidence** beside a record to see how its score was calculated.
 6. Use **Export queue** to download the current results as a CSV file.
 
 The first load may take a little longer because the app downloads data from the museum API. Samples are cached locally so later visits are faster.
+
+### Getty evidence
+
+Getty objects are discovered through SPARQL and fetched as Linked.Art JSON-LD. The sample includes a documented *Irises* record with embedded AAT material IDs, followed by objects in stable URI order. Medium resolution checks relevant Getty embedded AAT IDs, then the local vocabulary, then the persistent AAT cache and live Getty reconciliation service; unmatched terms remain unresolved. The evidence dialog shows that provenance, a compact IIIF image when available, and separate image and metadata rights. Remote AAT candidates need human review and do not automatically improve a score. When image availability cannot be established, that dimension is marked **unassessed** and excluded from the composite denominator. Getty samples should not be used to rank institutions.
 
 ## 🧮 Understanding the score
 

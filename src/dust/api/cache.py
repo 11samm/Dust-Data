@@ -14,6 +14,7 @@ def cohort_key(
     size: int = COHORT_SIZE,
     department: str | None = None,
     type_: str | None = None,
+    source: str = "cleveland",
 ) -> str:
     payload = {
         "department": department,
@@ -22,6 +23,10 @@ def cohort_key(
         "size": size,
         "type": type_,
     }
+    if source != "cleveland":
+        payload["source"] = source
+        payload["fields"] = []
+        payload["schema_version"] = 5
     canonical = json.dumps(payload, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
 

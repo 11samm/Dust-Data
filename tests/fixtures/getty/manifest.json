@@ -1,0 +1,136 @@
+{
+  "retrieved_at": "2026-09-23T05:41:05.349200+00:00",
+  "query": "SELECT DISTINCT ?object WHERE {\n  ?object a <http://www.cidoc-crm.org/cidoc-crm/E22_Human-Made_Object> .\n  FILTER(STRSTARTS(STR(?object), \"https://data.getty.edu/museum/collection/object/\"))\n} ORDER BY ?object LIMIT 25",
+  "records": [
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00004bde-6850-4a78-9c1b-4e2b927b7a5c",
+      "fixture": "00004bde-6850-4a78-9c1b-4e2b927b7a5c.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00007c19-13a5-4ed4-adfd-78b08df2b92c",
+      "fixture": "00007c19-13a5-4ed4-adfd-78b08df2b92c.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2",
+      "fixture": "00013555-8dca-4bd5-b487-c1ab1cd5e5e2.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00015a8d-3b06-4373-911e-2d867ff862f4",
+      "fixture": "00015a8d-3b06-4373-911e-2d867ff862f4.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/000306e6-62f7-4e10-b8ae-bcd743f5b267",
+      "fixture": "000306e6-62f7-4e10-b8ae-bcd743f5b267.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00036022-f89b-4e06-bada-0f7d15867bff",
+      "fixture": "00036022-f89b-4e06-bada-0f7d15867bff.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/000376e1-b31c-4b36-8c8b-0809980262be",
+      "fixture": "000376e1-b31c-4b36-8c8b-0809980262be.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/0003a949-2f36-4c21-b7ba-54e94c3c606b",
+      "fixture": "0003a949-2f36-4c21-b7ba-54e94c3c606b.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00041047-ced1-4199-ab62-735ccc9aac8d",
+      "fixture": "00041047-ced1-4199-ab62-735ccc9aac8d.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00043dc2-d3ec-41da-a535-22b4a8b333e4",
+      "fixture": "00043dc2-d3ec-41da-a535-22b4a8b333e4.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00046cd9-3638-400c-a543-ac82b545e2fb",
+      "fixture": "00046cd9-3638-400c-a543-ac82b545e2fb.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00049790-c497-4366-9a61-6fc25fa9a9d1",
+      "fixture": "00049790-c497-4366-9a61-6fc25fa9a9d1.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/0004f6b1-bced-466a-865d-b9095ee0afcb",
+      "fixture": "0004f6b1-bced-466a-865d-b9095ee0afcb.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/0005135a-d83c-46b1-831c-f9c4930d0b71",
+      "fixture": "0005135a-d83c-46b1-831c-f9c4930d0b71.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00052391-c77b-406b-8e53-1425b0fb0172",
+      "fixture": "00052391-c77b-406b-8e53-1425b0fb0172.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/000564da-1852-40fc-b5e0-df2cbc2aed85",
+      "fixture": "000564da-1852-40fc-b5e0-df2cbc2aed85.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00060fd0-fcfe-4e09-937c-5db4c6c6b143",
+      "fixture": "00060fd0-fcfe-4e09-937c-5db4c6c6b143.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/0006620a-8b8d-40a8-a800-38538bf8b408",
+      "fixture": "0006620a-8b8d-40a8-a800-38538bf8b408.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/0007c196-acd9-4dfd-9881-1c9f77f0b199",
+      "fixture": "0007c196-acd9-4dfd-9881-1c9f77f0b199.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00085e39-3e8c-4565-ab27-3277c91e0296",
+      "fixture": "00085e39-3e8c-4565-ab27-3277c91e0296.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/00087517-f26c-49c6-92b0-0af2195fc159",
+      "fixture": "00087517-f26c-49c6-92b0-0af2195fc159.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/0009704c-dc9a-4eb1-9101-1bbfd047872c",
+      "fixture": "0009704c-dc9a-4eb1-9101-1bbfd047872c.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/0009ffc1-86e5-466e-8100-d386051d1e2e",
+      "fixture": "0009ffc1-86e5-466e-8100-d386051d1e2e.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/000a493e-2400-4a1e-8ad0-b7aad0fc67c7",
+      "fixture": "000a493e-2400-4a1e-8ad0-b7aad0fc67c7.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/000b5220-5937-494f-b1ce-eca0ee45cc0a",
+      "fixture": "000b5220-5937-494f-b1ce-eca0ee45cc0a.json",
+      "status": 200
+    },
+    {
+      "url": "https://data.getty.edu/museum/collection/object/c88b3df0-de91-4f5b-a9ef-7b2b9a6d8abb",
+      "fixture": "c88b3df0-de91-4f5b-a9ef-7b2b9a6d8abb.json",
+      "status": 200
+    }
+  ]
+}

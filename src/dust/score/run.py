@@ -125,7 +125,7 @@ def score_artworks(raw_records: list[dict]) -> CohortBundle:
         except ValueError:
             continue
 
-    records_map = {str(r.raw.accession_number): r for r in scored}
+    records_map = {f"{r.raw.source_name}:{r.raw.id}": r for r in scored}
     frame = _build_frame(scored)
     unseen = _unseen_terms(scored)
     _write_unseen_csv(unseen)
@@ -156,6 +156,8 @@ def _build_frame(scored: list[ScoredRecord]) -> pd.DataFrame:
         rows.append(
             {
                 "id": norm.id,
+                "source_name": rec.raw.source_name,
+                "record_key": f"{rec.raw.source_name}:{rec.raw.id}",
                 "accession_number": norm.accession_number,
                 "title": norm.title,
                 "url": norm.url,
@@ -211,6 +213,8 @@ def load_cohort(
         dept = cohort.get("department")
         typ = cohort.get("type")
         banner = _format_banner(mode, size, fetched, dept, typ)
+        if payload.get("source") == "getty":
+            banner = f"Getty exploratory sample: {len(records_raw)} records, fetched {fetched[:10] or 'unknown date'}; not collection-representative"
         meta = CohortMeta(
             mode=mode,
             size=size,

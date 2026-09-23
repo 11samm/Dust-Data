@@ -9,6 +9,9 @@ def normalize_image(raw: ArtworkRaw) -> str:
     if isinstance(url, str) and url.strip():
         return "present"
 
+    if raw.source_name == "getty":
+        return "unassessed"
+
     license_status = raw.share_license_status.strip()
     if license_status == "Copyrighted":
         return "withheld_by_license"

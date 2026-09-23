@@ -51,7 +51,7 @@ class CreatorRaw:
 
 @dataclass
 class ArtworkRaw:
-    id: int
+    id: str
     accession_number: str
     title: str = ""
     url: str = ""
@@ -73,11 +73,17 @@ class ArtworkRaw:
     images: dict[str, Any] = field(default_factory=dict)
     source: dict[str, Any] = field(default_factory=dict)
     parse_warnings: list[str] = field(default_factory=list)
+    source_name: str = "cleveland"
+    source_uri: str = ""
+    image_rights: str = ""
+    metadata_rights: str = ""
+    iiif_manifest: str = ""
+    aat_evidence: list[dict[str, str]] = field(default_factory=list)
 
 
 @dataclass
 class NormalizedRecord:
-    id: int
+    id: str
     accession_number: str
     title: str
     url: str
@@ -190,17 +196,16 @@ def parse_artwork_raw(data: dict[str, Any]) -> ArtworkRaw:
     art_id = data.get("id")
     if art_id is None:
         raise ValueError("artwork missing id")
-    try:
-        art_id_int = int(art_id)
-    except (TypeError, ValueError) as e:
-        raise ValueError("artwork id not an integer") from e
+    art_id_text = str(art_id).strip()
+    if not art_id_text:
+        raise ValueError("artwork id is empty")
 
     acc = data.get("accession_number")
     if _absent(acc):
-        acc = str(art_id_int)
+        acc = art_id_text
 
     return ArtworkRaw(
-        id=art_id_int,
+        id=art_id_text,
         accession_number=str(acc).strip(),
         title="" if _absent(data.get("title")) else str(data.get("title")).strip(),
         url="" if _absent(data.get("url")) else str(data.get("url")).strip(),
@@ -220,6 +225,12 @@ def parse_artwork_raw(data: dict[str, Any]) -> ArtworkRaw:
         support_materials=support_list,
         description="" if _absent(data.get("description")) else str(data.get("description")).strip(),
         images=images,
-        source=dict(data),
-        parse_warnings=warnings,
+        source=dict(data.get("source_record") or data),
+        parse_warnings=warnings + list(data.get("parse_warnings") or []),
+        source_name=str(data.get("source_name") or "cleveland"),
+        source_uri=str(data.get("source_uri") or ""),
+        image_rights=str(data.get("image_rights") or ""),
+        metadata_rights=str(data.get("metadata_rights") or ""),
+        iiif_manifest=str(data.get("iiif_manifest") or ""),
+        aat_evidence=list(data.get("aat_evidence") or []),
     )

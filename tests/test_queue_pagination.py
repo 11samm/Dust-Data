@@ -20,8 +20,10 @@ def test_queue_page_size_is_fifteen():
     assert QUEUE_PAGE_SIZE == 15
 
 
-def test_row_key_strips_punctuation():
-    assert _row_key("1939.509") == "qrow_1939_509"
+def test_row_key_is_stable_and_distinguishes_punctuation():
+    assert _row_key("cleveland:1939.509").startswith("qrow_cleveland_1939_509_")
+    assert _row_key("cleveland:1939.509") == _row_key("cleveland:1939.509")
+    assert _row_key("cleveland:1939.509") != _row_key("cleveland:1939-509")
 
 
 def test_band_score_display_uses_percentage_scale():

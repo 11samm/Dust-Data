@@ -70,6 +70,8 @@ def _description_gap(norm: NormalizedRecord) -> str | None:
 def _image_gap(norm: NormalizedRecord) -> str | None:
     if norm.image_state == "present":
         return None
+    if norm.image_state == "unassessed":
+        return "Image availability unassessed"
     if norm.image_state == "withheld_by_license":
         lic = norm.share_license_status or "Copyrighted"
         return f"No public image — withheld by license ({lic})"

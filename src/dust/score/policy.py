@@ -43,6 +43,7 @@ IMAGE_STATE_SCORE = {
     "present": 1.0,
     "absent": 0.0,
     "withheld_by_license": 0.0,
+    "unassessed": 0.0,
 }
 
 DIMENSION_ORDER = ("image", "date", "medium", "attribution", "description")
@@ -54,7 +55,7 @@ def band_score_for(norm: NormalizedRecord, dimension: str) -> tuple[float, bool]
     """Returns (band_score, weight_applied)."""
     if dimension == "image":
         state = norm.image_state
-        if state == "withheld_by_license":
+        if state in ("withheld_by_license", "unassessed"):
             return 0.0, False
         return IMAGE_STATE_SCORE[state], True
     if dimension == "date":

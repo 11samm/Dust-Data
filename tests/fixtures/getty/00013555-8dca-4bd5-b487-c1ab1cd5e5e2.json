@@ -1,0 +1,673 @@
+{
+  "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2",
+  "type": "HumanMadeObject",
+  "_label": "Attic Black-Figure Vase Fragment",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300133025",
+      "type": "Type",
+      "_label": "Artwork"
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300193015",
+      "type": "Type",
+      "_label": "Vessels (Containers)",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435444",
+          "type": "Type",
+          "_label": "Classification (Category)"
+        }
+      ]
+    },
+    {
+      "id": "http://vocab.getty.edu/aat/300117130",
+      "type": "Type",
+      "_label": "Fragments (Object Portions)"
+    },
+    {
+      "id": "https://data.getty.edu/local/thesaurus/object-record-structure-whole",
+      "type": "Type",
+      "_label": "Object Record Structure: Whole",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-record-structure-type",
+          "type": "Type",
+          "_label": "Object Record Structure Type"
+        }
+      ]
+    }
+  ],
+  "identified_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/identifier/8c06cb5e-82ae-4119-ab2e-57779860bd93",
+      "type": "Identifier",
+      "_label": "Accession Number",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404626",
+          "type": "Type",
+          "_label": "Identification Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300312355",
+          "type": "Type",
+          "_label": "Accession Number"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "81.AE.206.D.2065"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/name/deeaa0a6-d3a2-436d-a3a7-ed7e4a102ed1",
+      "type": "Name",
+      "_label": "Primary Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417227",
+          "type": "Type",
+          "_label": "Alternate Title"
+        },
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/titles/primary-title",
+          "type": "Type",
+          "_label": "Primary Title",
+          "_deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on the `https://data.getty.edu/local/thesaurus/object-title-*` terms instead.",
+            "since": "2020-11-11"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/object-title-primary",
+          "type": "Type",
+          "_label": "Primary Title"
+        }
+      ],
+      "content": "Attic Black-Figure Vase Fragment"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/identifier/dor-id",
+      "type": "Identifier",
+      "_label": "Getty DOR ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID",
+          "_deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR ID` (https://data.getty.edu/local/thesaurus/dor-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-id",
+          "type": "Type",
+          "_label": "Getty DOR ID"
+        }
+      ],
+      "content": "109957"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/identifier/dor-uuid",
+      "type": "Identifier",
+      "_label": "Getty DOR UUID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID",
+          "_deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Getty DOR UUID` (https://data.getty.edu/local/thesaurus/dor-uuid) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/dor-uuid",
+          "type": "Type",
+          "_label": "Getty DOR UUID"
+        }
+      ],
+      "content": "00013555-8dca-4bd5-b487-c1ab1cd5e5e2"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/identifier/77e2d3cb-1c7e-5d8a-bfb0-1aa5248e977e",
+      "type": "Identifier",
+      "_label": "Slug Identifier",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/local/thesaurus/slug-identifier",
+          "type": "Type",
+          "_label": "Slug Identifier"
+        }
+      ],
+      "content": "urn:getty-local:idm:object:slug/107Z1R"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/name/deeaa0a6-d3a2-436d-a3a7-ed7e4a102ed1",
+      "type": "Name",
+      "_label": "Preferred Title",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300417193",
+          "type": "Type",
+          "_label": "Titles (General, Names)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Preferred Term"
+        }
+      ],
+      "content": "Attic Black-Figure Vase Fragment"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/identifier/tms-id",
+      "type": "Identifier",
+      "_label": "Gallery Systems' TMS ID",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID",
+          "_deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Gallery Systems' TMS ID` (https://data.getty.edu/local/thesaurus/tms-id) instead.",
+            "since": "2021-01-05"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/tms-id",
+          "type": "Type",
+          "_label": "Gallery Systems' TMS ID"
+        }
+      ],
+      "content": "117456"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/text/48d1d582-cba8-4cef-b45a-2936e50fac4a",
+      "type": "LinguisticObject",
+      "_label": "Source Credit Line",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435418",
+          "type": "Type",
+          "_label": "Credit Line"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404764",
+          "type": "Type",
+          "_label": "Sources (General Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/culture/87ab50a2-ea92-448e-a93d-cbdcae48026e",
+      "type": "LinguisticObject",
+      "_label": "Culture Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300055768",
+          "type": "Type",
+          "_label": "Culture"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/description/e8f3e7cc-cc84-4156-bec6-3b75433102b5",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]",
+      "_deprecated": {
+        "reason": "Migration from HTML to Markdown for Object Descriptions.",
+        "replacement": "Additionally filter Object Descriptions via the `format` property to select between the 'text/html' or 'text/markdown' variants during the deprecation period.",
+        "since": "2021-06-28"
+      },
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/description/e8f3e7cc-cc84-4156-bec6-3b75433102b5/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/description/e8f3e7cc-cc84-4156-bec6-3b75433102b5/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ],
+      "format": "text/html"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/description/4503e5dc-77d3-53be-b31c-9815a45f89ae",
+      "type": "LinguisticObject",
+      "_label": "Object Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300080091",
+          "type": "Type",
+          "_label": "Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Exterior, vegetal form with drooping leaves (wheat stem from Triptolemos scene?); interior, black.",
+      "subject_to": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/description/4503e5dc-77d3-53be-b31c-9815a45f89ae/licensing",
+          "type": "Right",
+          "_label": "License for Object Description",
+          "classified_as": [
+            {
+              "id": "http://creativecommons.org/licenses/by/4.0/",
+              "type": "Type",
+              "_label": "Attribution 4.0 International (CC BY 4.0)"
+            }
+          ],
+          "possessed_by": [
+            {
+              "id": "https://data.getty.edu/museum/collection/group/c496a7b4-6087-4deb-a1ac-0f21bd3fd87b",
+              "type": "Group",
+              "_label": "J. Paul Getty Museum, Los Angeles, California",
+              "member_of": [
+                {
+                  "id": "http://vocab.getty.edu/ulan/500115987",
+                  "type": "Group",
+                  "_label": "The J. Paul Getty Trust, Los Angeles, California",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/ulan/500000003",
+                      "type": "Type",
+                      "_label": "Corporate Bodies"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "subject_of": [
+            {
+              "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/description/4503e5dc-77d3-53be-b31c-9815a45f89ae/licensing/acknowledgements",
+              "type": "LinguisticObject",
+              "_label": "Acknowledgements for Object Description",
+              "classified_as": [
+                {
+                  "id": "http://vocab.getty.edu/aat/300026687",
+                  "type": "Type",
+                  "_label": "Acknowledgements"
+                }
+              ],
+              "content": "Text provided by the J. Paul Getty Museum. Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)."
+            }
+          ]
+        }
+      ],
+      "format": "text/markdown"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/dimensions/e1ae55a6-2650-4988-b261-a016f2abad29",
+      "type": "LinguisticObject",
+      "_label": "Dimensions Statement",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435430",
+          "type": "Type",
+          "_label": "Dimensions Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/materials-description/c7a871cf-f667-40ca-bdb8-636fcbd24d2c",
+      "type": "LinguisticObject",
+      "_label": "Materials Description",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435429",
+          "type": "Type",
+          "_label": "Materials Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Terracotta"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/type",
+      "type": "LinguisticObject",
+      "_label": "Object Type",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435443",
+          "type": "Type",
+          "_label": "Object/Work Type (Category)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "Open Vessel"
+    },
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/place/created",
+      "type": "LinguisticObject",
+      "_label": "Place Created",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435448",
+          "type": "Type",
+          "_label": "Creation Place Description"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    },
+    {
+      "id": "https://rightsstatements.org/vocab/NoC-US/1.0/",
+      "type": "LinguisticObject",
+      "_label": "RightsStatements.org Rights Assertion",
+      "classified_as": [
+        {
+          "id": "https://data.getty.edu/museum/ontology/linked-data/object/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement",
+          "_deprecated": {
+            "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+            "replacement": "Filter on `Rights Statement` (https://data.getty.edu/local/thesaurus/rights-statement) instead.",
+            "since": "2020-11-10"
+          }
+        },
+        {
+          "id": "https://data.getty.edu/local/thesaurus/rights-statement",
+          "type": "Type",
+          "_label": "Rights Statement"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300417696",
+          "type": "Type",
+          "_label": "Rights (Legal Concept)"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300418049",
+          "type": "Type",
+          "_label": "Brief Text"
+        }
+      ],
+      "content": "[description text omitted from fixture]"
+    }
+  ],
+  "shows": [
+    {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/subjects",
+      "type": "VisualItem",
+      "_label": "Subject Terms",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404126",
+          "type": "Type",
+          "_label": "Subjects (Content of Works)"
+        }
+      ],
+      "about": [
+        {
+          "id": "http://vocab.getty.edu/aat/300117132",
+          "type": "Type",
+          "_label": "Sherds"
+        }
+      ]
+    }
+  ],
+  "produced_by": {
+    "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/production",
+    "type": "Production",
+    "_label": "Production of Artwork",
+    "referred_to_by": [
+      {
+        "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/production/1054eb75-2551-469e-a9b9-d793e2af5eda/producer-description",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Description",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/producer-description",
+            "type": "Type",
+            "_label": "Producer Description",
+            "_deprecated": {
+              "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+              "replacement": "Filter on `Producer Description` (https://data.getty.edu/local/thesaurus/producer-description) instead.",
+              "since": "2020-11-10"
+            }
+          },
+          {
+            "id": "https://data.getty.edu/local/thesaurus/producer-description",
+            "type": "Type",
+            "_label": "Producer Description"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "Unknown"
+      },
+      {
+        "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/production/1054eb75-2551-469e-a9b9-d793e2af5eda/producer-name",
+        "type": "LinguisticObject",
+        "_label": "Artist/Maker (Producer) Name",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/local/thesaurus/producer-name",
+            "type": "Type",
+            "_label": "Producer Name"
+          },
+          {
+            "id": "http://vocab.getty.edu/aat/300418049",
+            "type": "Type",
+            "_label": "Brief Text"
+          }
+        ],
+        "content": "Unknown"
+      }
+    ],
+    "timespan": {
+      "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/production/timespan",
+      "type": "TimeSpan",
+      "identified_by": [
+        {
+          "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/production/timespan/name",
+          "type": "Name",
+          "_label": "Date",
+          "content": "6th century B.C."
+        }
+      ],
+      "begin_of_the_begin": "-0599-01-01T00:00:00",
+      "end_of_the_end": "-0500-12-31T23:59:59"
+    },
+    "carried_out_by": [
+      {
+        "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/production/1054eb75-2551-469e-a9b9-d793e2af5eda/unknown-maker",
+        "type": "Person",
+        "_label": "Unknown",
+        "classified_as": [
+          {
+            "id": "https://data.getty.edu/museum/ontology/linked-data/tms/object/unknown-maker",
+            "type": "Type",
+            "_label": "Unknown Maker (Concept)",
+            "_deprecated": {
+              "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+              "replacement": "Filter on `Unknown Maker (Concept)` (https://data.getty.edu/local/thesaurus/unknown-maker) instead.",
+              "since": "2020-11-10"
+            }
+          },
+          {
+            "id": "https://data.getty.edu/local/thesaurus/unknown-maker",
+            "type": "Type",
+            "_label": "Unknown Maker (Concept)"
+          }
+        ],
+        "referred_to_by": [
+          {
+            "id": "https://data.getty.edu/museum/collection/object/00013555-8dca-4bd5-b487-c1ab1cd5e5e2/production/1054eb75-2551-469e-a9b9-d793e2af5eda/role-statement",
+            "type": "LinguisticObject",
+            "_label": "Artist/Maker (Producer) Role Statement",
+            "classified_as": [
+              {
+                "id": "https://data.getty.edu/museum/ontology/linked-data/object/artist-maker-role-statement",
+                "type": "Type",
+                "_label": "Artist/Maker (Producer) Role Statement",
+                "_deprecated": {
+                  "reason": "Migration to unified `data.getty.edu/local/thesaurus` URLs for custom terms.",
+                  "replacement": "Filter on `Artist/Maker Role Statement` (https://data.getty.edu/local/thesaurus/artist-maker-role-statement) instead.",
+                  "since": "2020-11-10"
+                }
+              },
+              {
+                "id": "https://data.getty.edu/local/thesaurus/producer-role-statement",
+                "type": "Type",
+                "_label": "Artist/Maker (Producer) Role Statement"
+              },
+              {
+                "id": "http://vocab.getty.edu/aat/300418049",
+                "type": "Type",
+                "_label": "Brief Text"
+              }
+            ],
+            "content": "Artists (Visual Artists)",
+            "close_match": [
+              {
+                "id": "http://vocab.getty.edu/aat/300025103",
+                "type": "Type",
+                "_label": "Artists (Visual Artists)"
+              }
+            ]
+          }
+        ],
+        "close_match": [
+          {
+            "id": "http://vocab.getty.edu/ulan/500125274",
+            "type": "Type",
+            "_label": "Unknown Person (Concept)"
+          }
+        ]
+      }
+    ]
+  },
+  "current_keeper": [
+    {
+      "id": "https://data.getty.edu/museum/collection/group/9475a475-e5b7-4f2d-bdca-0c435e33f142",
+      "type": "Group",
+      "_label": "Antiquities (Curatorial Department)"
+    }
+  ],
+  "subject_of": [
+    {
+      "id": "https://www.getty.edu/art/collection/object/107Z1R",
+      "type": "LinguisticObject",
+      "_label": "Homepage for Object",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300264578",
+          "type": "Type",
+          "_label": "Web Page"
+        },
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary"
+        }
+      ],
+      "format": "text/html"
+    }
+  ]
+}

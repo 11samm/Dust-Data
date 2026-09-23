@@ -21,6 +21,7 @@ THEME_CSS = ROOT / "src" / "dust" / "ui" / "theme.css"
 
 @st.cache_data(show_spinner="Scoring cohort…", max_entries=12)
 def cached_bundle(
+    source: str,
     mode: str,
     department: str | None,
     type_: str | None,
@@ -29,6 +30,7 @@ def cached_bundle(
     policy_hash: str,
 ):
     return load_or_fetch_cohort(
+        source=source,
         mode=mode,
         department=department,
         type_=type_,
@@ -53,6 +55,12 @@ def clear_filters() -> None:
         st.session_state.pop(key, None)
 
 
+def clear_source_state() -> None:
+    clear_filters()
+    st.session_state.selected_record_key = None
+    st.session_state.queue_list_key = None
+
+
 def main() -> None:
     st.set_page_config(
         page_title=APP_TITLE,
@@ -61,8 +69,8 @@ def main() -> None:
     )
     st.html(f"<style>{THEME_CSS.read_text(encoding='utf-8')}</style>")
 
-    if "selected_accession" not in st.session_state:
-        st.session_state.selected_accession = None
+    if "selected_record_key" not in st.session_state:
+        st.session_state.selected_record_key = None
     if "queue_page" not in st.session_state:
         st.session_state.queue_page = 0
     if "queue_list_key" not in st.session_state:
@@ -77,7 +85,14 @@ def main() -> None:
 
     with st.sidebar:
         st.header("Sample", anchor=False)
-        mode = (
+        source = st.selectbox(
+            "Museum",
+            ["cleveland", "getty"],
+            format_func=lambda value: "Cleveland Museum of Art" if value == "cleveland" else "J. Paul Getty Museum",
+            key="museum_source",
+            on_change=clear_source_state,
+        )
+        mode = ("stratified" if source == "getty" else (
             st.segmented_control(
                 "Sample mode",
                 ["stratified", "department", "type"],
@@ -88,12 +103,12 @@ def main() -> None:
                 key="sample_mode",
             )
             or "stratified"
-        )
+        ))
         department = None
         type_ = None
-        if mode == "department":
+        if source == "cleveland" and mode == "department":
             department = st.selectbox("Department", DEPARTMENTS, key="sample_department")
-        elif mode == "type":
+        elif source == "cleveland" and mode == "type":
             type_ = st.selectbox("Type", TYPES, index=TYPES.index("Painting"), key="sample_type")
 
         refresh = st.button(
@@ -102,8 +117,17 @@ def main() -> None:
             icon=":material/sync:",
             width="stretch",
         )
-        sample_size = (
-            st.segmented_control(
+        if source == "getty":
+            sample_size = st.selectbox(
+                "Getty sample size",
+                [5, 25, 50, 100],
+                index=1,
+                help="Getty objects are selected in stable URI order. Larger samples take longer to fetch and are not representative of the whole collection.",
+                key="getty_sample_size",
+            )
+            st.caption("Irises plus objects in stable SPARQL order; exploratory, not random.")
+        else:
+            sample_size = st.segmented_control(
                 "Sample size",
                 list(COHORT_SIZES),
                 default=COHORT_SIZE,
@@ -112,13 +136,11 @@ def main() -> None:
                 required=True,
                 width="stretch",
                 key="sample_size",
-            )
-            or COHORT_SIZE
-        )
+            ) or COHORT_SIZE
 
         from dust.api.cache import cache_path_for_key, cohort_key, read_cache
 
-        ck = cohort_key(mode, size=sample_size, department=department, type_=type_ or None)
+        ck = cohort_key(mode, size=sample_size, department=department, type_=type_ or None, source=source)
         cache_path = cache_path_for_key(ck, CACHE_DIR)
         cache_age = "no cache yet"
         if cache_path.exists():
@@ -153,6 +175,7 @@ def main() -> None:
         try:
             with st.spinner("Refreshing the museum sample…"):
                 ensure_cohort(
+                    source=source,
                     mode=mode,
                     department=department,
                     type_=type_ or None,
@@ -160,7 +183,7 @@ def main() -> None:
                     force_refresh=True,
                 )
             st.cache_data.clear()
-            st.toast("New randomized sample loaded", icon=":material/check_circle:")
+            st.toast("Getty sample refreshed" if source == "getty" else "New randomized sample loaded", icon=":material/check_circle:")
         except Exception as exc:
             refresh_error = exc
 
@@ -168,6 +191,7 @@ def main() -> None:
         try:
             with st.spinner("Building the first sample from the museum API…"):
                 ensure_cohort(
+                    source=source,
                     mode=mode,
                     department=department,
                     type_=type_ or None,
@@ -188,7 +212,7 @@ def main() -> None:
         mtime = cache_path.stat().st_mtime if cache_path.exists() else 0.0
         ph = policy_fingerprint()
         try:
-            bundle = cached_bundle(mode, department, type_ or None, sample_size, mtime, ph)
+            bundle = cached_bundle(source, mode, department, type_ or None, sample_size, mtime, ph)
         except Exception:
             st.warning("Live data is temporarily unavailable, so the last cached sample is being shown.", icon=":material/cloud_off:")
             bundle = load_cohort(cache_path)
@@ -246,6 +270,7 @@ def main() -> None:
         department,
         type_,
         sample_size,
+        source,
     )
     if st.session_state.queue_list_key != list_key:
         previous_key = st.session_state.queue_list_key
@@ -264,6 +289,8 @@ def main() -> None:
         with st.container(horizontal=True, vertical_alignment="center", gap="small"):
             st.subheader("Records to review", anchor=False)
             export_columns = [
+                "source_name",
+                "record_key",
                 "accession_number",
                 "title",
                 "department",

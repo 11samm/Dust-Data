@@ -47,9 +47,24 @@ def normalize_medium(raw: ArtworkRaw) -> tuple[str, str, str, bool, list[str]]:
     warnings: list[str] = []
     technique = raw.technique
     medium_raw = technique
+    embedded_band = ""
+    embedded_canonical = ""
+    if raw.source_name == "getty":
+        embedded = [
+            ref for ref in raw.aat_evidence
+            if ref.get("match_source") == "embedded"
+            and ref.get("role") in {"material", "technique"}
+            and str(ref.get("uri") or "").startswith("http://vocab.getty.edu/aat/")
+        ]
+        if embedded:
+            chosen = next((ref for ref in embedded if ref["role"] == "technique"), embedded[0])
+            embedded_band = "specific" if chosen["role"] == "technique" else "material_only"
+            embedded_canonical = _normalize_medium_text(chosen.get("label") or technique)
     generic, material, specific, aliases = _load_vocab()
 
     if not technique or not technique.strip():
+        if embedded_band:
+            return embedded_band, embedded_canonical, medium_raw, False, warnings
         band, canonical, unseen = _score_key("", raw, generic, material, specific, aliases)
         return band, canonical, medium_raw, unseen, warnings
 
@@ -71,6 +86,11 @@ def normalize_medium(raw: ArtworkRaw) -> tuple[str, str, str, bool, list[str]]:
     if best_band in ("missing", "generic") and _support_bump(raw, material):
         warnings.append("support materials supplied the material")
         best_band = "material_only" if best_band == "missing" else "material_only"
+
+    if embedded_band:
+        if band_rank[embedded_band] > band_rank[best_band]:
+            return embedded_band, embedded_canonical, medium_raw, False, warnings
+        return best_band, best_canonical, medium_raw, False, warnings
 
     return best_band, best_canonical, medium_raw, unseen, warnings
 
